@@ -6,7 +6,7 @@ class HelloWorld extends Component {
     }
     render() {
         return(
-            <h1>Hello Component!</h1>
+            <h1>Hello {this.props.message}!</h1>
         )
     }
 }
